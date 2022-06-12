@@ -1,0 +1,14 @@
+{
+  "myExpertise": [
+    {
+      "expertise_heading": "Web Development",
+      "icon": "code",
+      "description": " Modern and mobile-ready website that will help you reach all of your marketing."
+    },
+    {
+      "expertise_heading": "Tesing",
+      "icon": "bug",
+      "description": " Bug free Application which helps to keep more productive and reach without bugs to the end user."
+    }
+  ]
+}

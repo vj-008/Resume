@@ -1,0 +1,43 @@
+{
+  "experience": [
+    {
+      "year": "2021 - Present",
+      "designation": "Software Developer & QA",
+      "company": "Essentia Softserv.",
+      "description": "Monitored technical aspects of the front-end delivery for several projects and provide bug free application to end user."
+    },
+    {
+      "year": "2020 - 2021",
+      "designation": "Software Developer & QA",
+      "company": "Cognizant Technology Solution.",
+      "description": "Worked on several projects of front-end with good leaning of Development and Testing."
+    },
+    {
+      "year": "2019 - 2020",
+      "designation": "Operational Executive",
+      "company": "SpiceJet.",
+      "description": "Monitored operational aspects of the flights in spiceJet tool."
+    }
+  ],
+  "education": [
+    {
+      "year": "2015 - 2019",
+      "designation": "B.Tech",
+      "company": "Meerut Institute of Engineering and Technology, Meerut",
+      "description": "Bachelor's Degree in Electronics and Communication with B.tech hons (77.08%)"
+    },
+    {
+      "year": "2013 - 2015",
+      "designation": "HSC",
+      "company": "Royal Public School, Shamli",
+      "description": "HSC in Maths-Science with 81.2%"
+    },
+    {
+      "icon": "briefcase",
+      "year": "2013 - Present",
+      "designation": "SSLC",
+      "company": "Royal Public School, Shamli",
+      "description": "SSLC from Royal Public School with 89.38%"
+    }
+  ]
+}

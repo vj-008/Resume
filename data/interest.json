@@ -1,0 +1,8 @@
+{
+  "interest": [
+    { "icon_class": "music", "description": "Music" },
+    { "icon_class": "plane", "description": "Travel" },
+    { "icon_class": "fire", "description": "Cooking" },
+    { "icon_class": "puzzle-piece", "description": "Gaming" }
+  ]
+}
