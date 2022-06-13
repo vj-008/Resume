@@ -22,7 +22,7 @@ export default {
       },
       {
         rel: "stylesheet",
-        href: "'https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100&display=swap'",
+        href: "'https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap",
       },
       {
         rel: "stylesheet",

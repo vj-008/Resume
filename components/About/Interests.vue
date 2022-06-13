@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="heading-style border color-main">
+    <div class="heading-style border color-main position-sticky">
       <span class="color-primary">I</span>nterests
     </div>
     <div class="border table-design interest-container">
       <div
-        v-for="interest in interest_values"
-        :key="interest"
+        v-for="(interest, index) in interest_values"
+        :key="index"
         class="flex-class flex-column interest-element"
       >
         <div class="flex-class">

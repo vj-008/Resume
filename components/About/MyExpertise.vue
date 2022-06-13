@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="heading-style border color-main">
+    <div class="heading-style border color-main position-sticky">
       <span class="color-primary">My</span> Expertise
     </div>
     <div class="table-design border">
       <div
-        v-for="expertise in my_expertise"
-        :key="expertise"
+        v-for="(expertise, index) in my_expertise"
+        :key="index"
         class="box-style border flex-class flex-column"
       >
         <div class="icon flex-class"><i :class="iconClass(expertise)"></i></div>

@@ -13,7 +13,8 @@ export default {
   margin: 0;
   padding: 0;
   color: #646464;
-  font-family: "Roboto", sans-serif;
+  font-family: "Anton", sans-serif;
+  -webkit-font-smoothing: antialiased;
   /* background-image: url("~@/assets/img/back-img.png"); */
 }
 
@@ -45,6 +46,7 @@ export default {
   width: 55%;
   height: 650px;
   overflow-y: scroll;
+  position: relative;
 }
 .link_decoration {
   text-decoration: none;

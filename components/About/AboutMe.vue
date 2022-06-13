@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="heading-style border color-main">
+    <div class="heading-style border color-main position-sticky">
       <span class="color-primary">About</span> Me
     </div>
     <div class="table-design border">
@@ -12,8 +12,8 @@
       <ul class="box-style">
         <li
           class="box-element"
-          v-for="list_item in about_me.list"
-          :key="list_item"
+          v-for="(list_item, index) in about_me.list"
+          :key="index"
         >
           <span class="key-style">{{ list_item.key_item }}</span>
           <span class="value-style">{{ list_item.value_item }}</span>

@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="heading-style border color-main">
+    <div class="heading-style border color-main position-sticky">
       <span class="color-primary">Q</span>uote
     </div>
     <div class="quote-profile">
       <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit.
+        I hereby declare that the above written particulars are true to the best
+        of my knowledge and belief.
       </div>
       <div class="flex-column flex-class">
         <img

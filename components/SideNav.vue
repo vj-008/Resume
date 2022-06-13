@@ -15,6 +15,13 @@
       RESUME
     </div>
     <div
+      @click="setSelectedLink('project')"
+      class="border sidenav-element flex-class flex-column"
+    >
+      <i class="fa fa-solid fa-list sidenav-icon"></i>
+      PROJECTS
+    </div>
+    <div
       @click="setSelectedLink('contact')"
       class="border sidenav-element flex-class flex-column"
     >
