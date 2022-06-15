@@ -94,7 +94,7 @@ export default {
   position: fixed;
   top: 0px;
   background: #fff;
-  z-index: 4;
+  z-index: 2;
 }
 .mb-14 {
   margin-bottom: 14px;

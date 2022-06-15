@@ -3,7 +3,10 @@
     <div class="border photo_align">Photo</div>
     <div class="border profile_description">
       <div class="name_font-size color-main">Varnika Jain</div>
-      <div class="designation">Developer</div>
+      <!-- <div class="designation">Developer</div> -->
+      <div class="container-type">
+        <div class="typed-out">Web Developer</div>
+      </div>
       <div class="social">
         <a href="https://github.com/vj-008" target="blank" class="social_icon">
           <i class="fa fa-github color-link"></i
@@ -86,5 +89,26 @@
   text-align: center;
   position: absolute;
   bottom: 10px;
+}
+.container-type {
+  display: inline-block;
+  margin-top: 10px;
+}
+.typed-out {
+  overflow: hidden;
+  /* border-right: 0.15em solid orange; */
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards;
+  font-size: 1.3rem;
+  width: 0;
+  color: #65c18c;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 </style>

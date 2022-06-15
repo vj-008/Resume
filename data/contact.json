@@ -1,0 +1,14 @@
+{
+  "contact": {
+    "list": [
+      { "key_item": "Residence.....", "value_item": "India" },
+      { "key_item": "PhoneNo......", "value_item": "+919045376008" },
+      {
+        "key_item": "Address.....",
+        "value_item": "Kairana, Shamli (Uttar Pradesh)"
+      },
+
+      { "key_item": "Email.....", "value_item": "varnikajain678@gmail.com" }
+    ]
+  }
+}

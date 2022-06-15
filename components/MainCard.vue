@@ -5,6 +5,7 @@
       <Profile></Profile>
       <About v-if="selectedItem == 'about'"></About>
       <Resume v-if="selectedItem == 'resume'"></Resume>
+      <Contact v-if="selectedItem == 'contact'"></Contact>
     </div>
   </div>
 </template>
