@@ -43,10 +43,12 @@ export default {
   color: #65c18c;
 }
 .right-card-container {
-  width: 55%;
+  width: 60%;
   height: 650px;
   overflow-y: scroll;
   position: relative;
+  background-color: #fff;
+  z-index: 0;
 }
 .link_decoration {
   text-decoration: none;

@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "title": "EPISOURCE | DX-SEARCH",
+      "icon": "fa-search",
+      "tools": "MS Visual Studio, Postgres, Python, Nginx, Jira, Shortcut, Git, Postman.",
+      "framework": "Nuxt.js, Vuetify, scss",
+      "description": "Develop a Code Search Engine for Medical Coders to get Medical Data Quick and Accurate."
+    },
+    {
+      "title": "DATASUDH",
+      "icon": "fa-laptop",
+      "tools": "MS Visual Studio, Postgres, Python, Nginx, Git.",
+      "framework": "Nuxt.js, Tailwind",
+      "description": "Develop a Website for learners to learn about different Techstack, Course, Blogpost similar as Udemy."
+    },
+    {
+      "title": "NOVO-INTERNAL",
+      "icon": "fa-cart-plus",
+      "tools": "MS Visual Studio, Postgres, Python, Nginx, Git.",
+      "framework": "Vue.js",
+      "description": "Develop a Website for medical patients to buy medicines and to take appointment for both virtual and on location checkup same as 1mg."
+    },
+    {
+      "title": "WALMART LOG ATLAS PRODUCT DEV",
+      "icon": "fa-terminal",
+      "tools": "JIRA, Dbeaver, Postman, IntelliJ, Splunk, Git, Kafka messages, Cassandra DB, GCP(Google Cloud Platform).",
+      "framework": "Use different tools for complete flow.",
+      "description": "Story Analysis, Test Case Creation, Test Case Execution in JIRA. End to End workflow to check the Documentation Captiva from GDM UI -> GDM BK -> Pepr -> OFCR -> SCT -> Big Query -> Research UI."
+    },
+    {
+      "title": "WALMART - FM 2.0 FDS CILL",
+      "icon": "fa-database",
+      "tools": "GCP (Google Cloud Platform), GDP, DQAF, Jira.",
+      "framework": "SQL, Pipelines in GDP",
+      "description": "End to end workflow creation for transferring data from one layer to another. Validating the output files according to Business Rules and folder taxonomy Using DQAF Automation Tool creating pipelines, workflow and deploy the Workflow to validate the output files data."
+    },
+    {
+      "title": "WALMART-SAMS JDA WMS QE AUTOMA",
+      "icon": "fa-bug",
+      "tools": "IntelliJ, Azure Data Studio, Java.",
+      "framework": "Cucumber-BDD, Selenium",
+      "description": "Worked for JDA Automation where we doing UI Testing and create testcases using BDD Framework and Selenium for QA testing and using Azure data Studio for data validation part."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="heading-style border color-main position-sticky">
+    <div class="heading-style color-main position-sticky">
       <span class="color-primary">Q</span>uote
     </div>
     <div class="quote-profile">

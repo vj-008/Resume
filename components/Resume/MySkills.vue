@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="heading-style border color-main position-sticky">
+    <div class="heading-style color-main position-sticky">
       <span class="color-primary">My</span> Skills
     </div>
-    <div class="display-flex flex-row">
-      <div class="width-50 border pg-main">
+    <div class="display-flex flex-row vertical-border">
+      <div class="width-50 pg-main">
         <div class="mb-1rem flex-class flex-row">
           <i class="fa fa-solid fa-crop icon-font"></i>
           <div class="ml-14 color-main">TOOLS & SCM</div>

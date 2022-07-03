@@ -1,18 +1,25 @@
 <template>
   <div>
-    <div class="heading-style border color-main position-sticky">
+    <div class="heading-style color-main position-sticky">
       <span class="color-primary">R</span>esume
     </div>
-    <div class="display-flex flex-row">
-      <div class="width-50 border pg-main">
-        <div class="mb-1rem flex-class flex-row border">
+    <div class="display-flex flex-row vertical-border">
+      <div class="width-50 pg-main">
+        <div
+          class="
+            mb-1rem
+            flex-class flex-row
+            position-relative
+            horizontal-border
+          "
+        >
           <i class="fa fa-solid fa-briefcase icon-font"></i>
           <div class="ml-14 color-main">EXPERIENCE</div>
         </div>
         <div
           v-for="(experience, index) in resume.experience"
           :key="index"
-          class="ptb-2rem"
+          class="ptb-2rem position-relative horizontal-border"
         >
           <div class="years" :style="activeYear(experience)">
             {{ experience.year }}
@@ -26,15 +33,22 @@
           </div>
         </div>
       </div>
-      <div class="width-50 border pg-main">
-        <div class="mb-1rem flex-class flex-row border">
+      <div class="width-50 pg-main">
+        <div
+          class="
+            mb-1rem
+            flex-class flex-row
+            position-relative
+            horizontal-border
+          "
+        >
           <i class="fa fa-solid fa-book icon-font"></i>
           <div class="ml-14 color-main">EDUCATION</div>
         </div>
         <div
           v-for="(education, index) in resume.education"
           :key="index"
-          class="ptb-2rem"
+          class="ptb-2rem position-relative horizontal-border"
         >
           <div class="years">{{ education.year }}</div>
           <div class="color-main designation">
@@ -84,17 +98,20 @@ export default {
   padding: 2rem 0px;
 }
 .mb-1rem {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .designation {
   font-size: 16px;
   font-weight: 500;
 }
 .position-sticky {
-  position: fixed;
+  position: sticky;
   top: 0px;
   background: #fff;
   z-index: 2;
+}
+.position-relative {
+  position: relative;
 }
 .mb-14 {
   margin-bottom: 14px;

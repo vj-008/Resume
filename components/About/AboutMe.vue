@@ -1,17 +1,18 @@
 <template>
   <div>
-    <div class="heading-style border color-main position-sticky">
+    <div class="heading-style color-main position-sticky">
       <span class="color-primary">About</span> Me
     </div>
-    <div class="table-design border">
-      <div class="box-style">
+    <div class="table-design vertical-border">
+      <div class="box-style horizontal-border position-relative">
         <p class="about-description">
           {{ about_me.description }}
         </p>
       </div>
-      <ul class="box-style">
+      <ul class="box-style horizontal-border position-relative">
         <li
-          class="box-element"
+          class="box-element position-relative"
+          :class="[index == 3 ? '' : 'horizontal-border']"
           v-for="(list_item, index) in about_me.list"
           :key="index"
         >
@@ -32,3 +33,34 @@ export default {
   },
 };
 </script>
+<style >
+.heading-style :after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  left: -2rem;
+  bottom: 0rem;
+  background: radial-gradient(
+    ellipse at left,
+    #dddddd 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+}
+.vertical-border {
+  position: relative;
+}
+.vertical-border:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  left: 50%;
+  background: radial-gradient(
+    ellipse at top,
+    #dddddd 0%,
+    rgba(255, 255, 255, 0) 90%
+  );
+}
+</style>

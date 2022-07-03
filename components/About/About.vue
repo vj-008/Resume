@@ -46,7 +46,7 @@ export default {
 }
 
 .box-element {
-  margin-bottom: 20px;
+  padding: 10px 0px;
 }
 .value-style {
   float: right;
@@ -60,17 +60,4 @@ ul {
 li {
   list-style: none;
 }
-/* .box-style li:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-  background: radial-gradient(
-    ellipse at center,
-    #dddddd 0%,
-    rgba(255, 255, 255, 0) 70%
-  );
-} */
 </style>

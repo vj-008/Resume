@@ -1,15 +1,15 @@
 <template>
-  <div class="display-flex flex-row">
-    <div class="width-50 border pg-main">
+  <div class="display-flex flex-row vertical-border">
+    <div class="width-50 pg-main">
       <div class="mb-1rem flex-class flex-row">
         <i class="fa fa-solid fa-code icon-font"></i>
         <div class="ml-14 color-main">CODING</div>
       </div>
     </div>
-    <div class="width-50 border pg-main">
+    <div class="width-50 pg-main">
       <div class="mb-1rem flex-class flex-row">
         <i class="fa fa-solid fa-list icon-font"></i>
-        <div class="ml-14 color-main">KNOWLEDGE</div>
+        <div class="ml-14 color-main">KNOWLEDGE & SOFT SKILLS</div>
       </div>
       <ul class="list-padding">
         <li

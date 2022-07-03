@@ -1,11 +1,14 @@
 {
   "knowledge": [
-    { "title": "Modern and Mobile-ready Application" },
     { "title": "Responsive Design" },
     { "title": "Testing/Debugging of Running Application" },
     { "title": "GIT" },
     { "title": "CSS and Javascript Frameworks" },
-    { "title": "Sprint Management Tool - JIRA" }
+    { "title": "Sprint Management Tool - JIRA" },
+    { "title": "Communication Skills" },
+    { "title": "TeamWork" },
+    { "title": "Flexibility" },
+    { "title": "Problem Solving Skills" }
   ],
   "coding": []
 }
