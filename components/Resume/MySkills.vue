@@ -3,9 +3,9 @@
     <div class="heading-style color-main position-sticky">
       <span class="color-primary">My</span> Skills
     </div>
-    <div class="display-flex flex-row vertical-border">
+    <div class="display-flex flex-row-direction vertical-border skills">
       <div class="width-50 pg-main">
-        <div class="mb-1rem flex-class flex-row">
+        <div class="mb-1rem flex-class flex-row-direction">
           <i class="fa fa-solid fa-crop icon-font"></i>
           <div class="ml-14 color-main">TOOLS & SCM</div>
         </div>
@@ -23,8 +23,8 @@
           </div>
         </div>
       </div>
-      <div class="width-50 pg-main">
-        <div class="mb-1rem flex-class flex-row">
+      <div class="width-50 pg-main language horizontal-border">
+        <div class="mb-1rem flex-class flex-row-direction">
           <i class="fa fa-solid fa-flag icon-font"></i>
           <div class="ml-14 color-main">LANGUAGES</div>
         </div>
@@ -86,6 +86,12 @@ export default {
   width: 100%;
   height: 14px;
   /* position: relative; */
+}
+.language:after {
+  display: none;
+}
+.skills:after {
+  display: block;
 }
 .back-grey {
   background: #d8dbe2;

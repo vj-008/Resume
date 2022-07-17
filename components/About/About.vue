@@ -54,6 +54,7 @@ export default {
   font-size: 17px;
   font-weight: 400;
 }
+
 ul {
   margin-bottom: 0px;
 }

@@ -28,38 +28,46 @@
         ></a>
       </div>
       <div class="contactme_profile">
-        <div class="link_decoration color-link">CONTACT ME</div>
+        <div
+          class="link_decoration color-link"
+          @click="setSelectedLink('contact')"
+        >
+          CONTACT ME
+        </div>
       </div>
     </div>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    setSelectedLink(item) {
+      this.$emit("selectedLink", { card: item, is_link: true });
+    },
+  },
+};
+</script>
 
 
 
 <style>
 .outer-background {
-  background-color: #65c18c;
-  width: 100%;
-  height: 100vh;
-}
-.card-direction {
+  background: linear-gradient(to bottom right, #50a3a2 0%, #78cc6d 100%);
   display: flex;
-  width: 93%;
-  margin-left: 80px;
-  background-color: #65c18c;
-  position: relative;
-  top: 60px;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 40px;
+  width: 100%;
 }
+
 .profile-container {
-  /* width: 480px; */
-  width: 35%;
-  height: 674px;
+  width: 100%;
+  height: 640px;
   border-radius: 5px;
   background-color: #fff;
   z-index: 10;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px, -10px -10px 0px 10px rgb(0 0 0 / 5%);
 }

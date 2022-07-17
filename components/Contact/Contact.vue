@@ -32,10 +32,18 @@
       <a href="https://github.com/vj-008" target="blank" class="social_icon">
         <i class="fa fa-github color-link icon-font-contact"></i
       ></a>
-      <a href="" target="blank" class="social_icon">
+      <a
+        href="https://www.linkedin.com/in/varnika-jain-01547816b"
+        target="blank"
+        class="social_icon"
+      >
         <i class="fa fa-linkedin color-link icon-font-contact"></i
       ></a>
-      <a href="" target="blank" class="social_icon">
+      <a
+        href="https://www.facebook.com/varnika.jain.507679"
+        target="blank"
+        class="social_icon"
+      >
         <i class="fa fa-facebook color-link icon-font-contact"></i
       ></a>
       <a href="" target="blank" class="social_icon">

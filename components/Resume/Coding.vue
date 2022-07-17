@@ -1,13 +1,13 @@
 <template>
-  <div class="display-flex flex-row vertical-border">
+  <div class="display-flex flex-row-direction vertical-border coding">
     <div class="width-50 pg-main">
-      <div class="mb-1rem flex-class flex-row">
+      <div class="mb-1rem flex-class flex-row-direction">
         <i class="fa fa-solid fa-code icon-font"></i>
         <div class="ml-14 color-main">CODING</div>
       </div>
     </div>
     <div class="width-50 pg-main">
-      <div class="mb-1rem flex-class flex-row">
+      <div class="mb-1rem flex-class flex-row-direction">
         <i class="fa fa-solid fa-list icon-font"></i>
         <div class="ml-14 color-main">KNOWLEDGE & SOFT SKILLS</div>
       </div>
@@ -15,7 +15,7 @@
         <li
           v-for="(list, index) in knowledge"
           :key="index"
-          class="display-flex"
+          class="display-flex knowledge-alignment"
         >
           <div><i class="fa fa-solid fa-check list-icon"></i></div>
           <div class="list-margin">
@@ -38,7 +38,7 @@ export default {
 </script>
 <style>
 .list-padding {
-  padding-left: 0px;
+  padding: 10px 0px;
 }
 .list-margin {
   margin-left: 1rem;
@@ -49,5 +49,8 @@ export default {
 .list-icon {
   color: #78cc6d;
   font-size: 22px;
+}
+.coding:after {
+  display: block;
 }
 </style>

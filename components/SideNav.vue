@@ -86,10 +86,20 @@ export default {
       active_button: "about",
     };
   },
+  props: {
+    contact: Boolean,
+  },
+  watch: {
+    contact: function () {
+      if (this.contact) {
+        this.active_button = "contact";
+      }
+    },
+  },
   methods: {
     setSelectedLink(item) {
       this.active_button = item;
-      this.$emit("selectedLink", item);
+      this.$emit("selectedLink", { card: item, is_link: false });
     },
   },
 };

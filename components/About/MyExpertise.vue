@@ -60,7 +60,7 @@ export default {
 .flex-column {
   flex-direction: column;
 }
-.flex-row {
+.flex-row-direction {
   flex-direction: row;
 }
 .icon .fa {

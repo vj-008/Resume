@@ -3,12 +3,12 @@
     <div class="heading-style color-main position-sticky">
       <span class="color-primary">R</span>esume
     </div>
-    <div class="display-flex flex-row vertical-border">
+    <div class="display-flex flex-row-direction vertical-border resume">
       <div class="width-50 pg-main">
         <div
           class="
             mb-1rem
-            flex-class flex-row
+            flex-class flex-row-direction
             position-relative
             horizontal-border
           "
@@ -37,7 +37,7 @@
         <div
           class="
             mb-1rem
-            flex-class flex-row
+            flex-class flex-row-direction
             position-relative
             horizontal-border
           "
@@ -118,6 +118,9 @@ export default {
 }
 .width-50 {
   width: 50%;
+}
+.resume::after {
+  display: block;
 }
 .ml-14 {
   font-weight: 500;
