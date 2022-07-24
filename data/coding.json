@@ -10,5 +10,18 @@
     { "title": "Flexibility" },
     { "title": "Problem Solving Skills" }
   ],
-  "coding": []
+  "coding": [
+    {"value":"85",
+      "text":"Vue.js"
+    },
+    {"value":"70",
+      "text":"React.js"
+    },
+    {"value":"75",
+      "text":"Javascript"
+    },
+    {"value":"85",
+      "text":"HTML/CSS"
+    }
+  ]
 }

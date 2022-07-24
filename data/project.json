@@ -18,7 +18,7 @@
       "title": "NOVO-INTERNAL",
       "icon": "fa-cart-plus",
       "tools": "MS Visual Studio, Postgres, Python, Nginx, Git.",
-      "framework": "Vue.js",
+      "framework": "React.js, Material UI",
       "description": "Develop a Website for medical patients to buy medicines and to take appointment for both virtual and on location checkup same as 1mg."
     },
     {
